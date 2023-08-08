@@ -1,0 +1,374 @@
+@media screen and (min-width: 1011px) and (max-width: 1078px) {
+    .iconhead {
+        /* position: absolute;
+        top: -5%; */
+        margin-left: 80px;
+        display: flex;
+        column-gap: 80px;
+        margin-top: -8px;
+    }
+    #lasticonhead {
+        margin-left: 80px;
+        display: flex;
+        column-gap: 3px;
+        margin-top: -8px;
+    }
+    .icon {
+        position: relative;
+        width: 360px;
+        height: 100px;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+    }
+    .icons {
+        column-gap: 0;
+    }
+    .lotteries {
+        column-gap: 0;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .iconhead {
+        /* position: absolute;
+        top: -5%; */
+        margin-left: 80px;
+        display: flex;
+        column-gap: 80px;
+        margin-top: -3px;
+    }
+    #lasticonhead {
+        margin-left: 80px;
+        display: flex;
+        column-gap: 3px;
+        margin-top: -8px;
+    }
+    .icons {
+        position: relative;
+        margin-top: 30px;
+        display: grid;
+        justify-content: center;
+        row-gap: 15px;
+        margin-left: 15px;
+    }
+    .icon {
+        position: relative;
+        width: 380px;
+        height: 90px;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+    }
+    .iconhead {
+        /* position: absolute;
+        top: -5%; */
+        margin-left: 80px;
+        display: flex;
+        column-gap: 130px;
+        margin-top: -8px;
+    }
+    #lasticonhead {
+        margin-left: 80px;
+        display: flex;
+        column-gap: 40px;
+        margin-top: -8px;
+    }
+    .upcominghead h1 {
+        display: block;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .faq {
+        display: block;
+        text-align: center;
+    }
+    .lotteries {
+        display: grid;
+        row-gap: 10px;
+        justify-content: center !important;
+    }
+    .rectangles:first-child {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .star-bottom-row {
+        display: block;
+        text-align: center;
+    }
+    .star-bottom-body {
+        display: grid !important;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .star-top {
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+        column-gap: 100px;
+    }
+    .star-bottom-column {
+        margin-top: 4rem;
+    }
+    .rectangle:last-child {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    html,
+    body {
+        width: 100%;
+    }
+    .winnerdiv {
+        display: grid !important;
+        justify-content: center !important;
+    }
+    .prize:last-of-type {
+        border-bottom: 1px solid #5F5F5F;
+    }
+    .winner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .faq {
+        margin-left: 0;
+        width: auto;
+    }
+    .faq-questions {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .special {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .faq-line {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .faq-questions-header h2 {
+        font-size: 24px;
+    }
+    .faq-questions p:first-child {
+        border: none;
+        color: #0061A3;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .chevron {
+        color: #5F5F5F;
+    }
+    .faq-line {
+        color: #E0E0E0;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .big-hide {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+    .medium-hide {
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+    .small-hide {
+        display: none !important;
+    }
+    html,
+    body {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    html,
+    body {
+        width: 100%;
+    }
+    .winner .biggest {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 700;
+        width: 343px;
+        height: 50px;
+    }
+    .winnersection {
+        margin-top: 1rem;
+        width: 343px;
+        height: 610px;
+        border-bottom: 1px solid #5F5F5F;
+    }
+    .winners .biggests {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 700;
+        width: 343px;
+        height: 50px;
+    }
+    .prizes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .winners {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .prize {
+        width: 343px;
+    }
+    .prize1 {
+        width: 343px;
+    }
+    .pria {
+        top: 0;
+    }
+    .prib {
+        top: 20px;
+    }
+    .pric {
+        top: 50px;
+    }
+    .icon {
+        width: 350px;
+        height: 100px;
+        align-items: center;
+    }
+    .icons {
+        margin-left: 0;
+    }
+    .iconhead {
+        display: flex;
+        column-gap: 90px;
+        margin-top: 0;
+    }
+    #lasticonhead {
+        margin-left: 65px;
+        display: flex;
+        column-gap: 15px;
+        margin-top: 0;
+    }
+    .lottery {
+        display: grid;
+        width: 350px;
+        height: 150px;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        grid-template-rows: 1fr 2fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .lotteries {
+        display: grid;
+        row-gap: 10px;
+        justify-content: center !important;
+        margin-left: 0;
+    }
+    .upcominghead h1 {
+        font-size: 18px;
+        margin-top: 75px;
+        margin-left: 0;
+    }
+    .rectangle {
+        width: 155px;
+        height: 250px;
+    }
+    .rectanglebottom {
+        width: 139px;
+        height: 36px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 840px) {
+    .rectangle:nth-child(4) {
+        display: none;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 600px) {
+    .winner .biggest {
+        font-size: 16px;
+        font-weight: 700;
+        width: 120%;
+        height: 50px;
+    }
+    .winnersection {
+        margin-top: 1rem;
+        width: 120%;
+        height: 610px;
+        border-bottom: 1px solid #5F5F5F;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+    .winner .biggest {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 700;
+        width: 130%;
+        height: 50px;
+    }
+    .winnersection {
+        margin-top: 1rem;
+        width: 130%;
+        height: 610px;
+        border-bottom: 1px solid #5F5F5F;
+    }
+}
+
+@media (max-width: 800px) {
+    .winner {
+        position: relative;
+    }
+    .winnersectionbody {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 0;
+    }
+    .winnersectionbodyright {
+        margin-top: 20px;
+        position: absolute;
+        margin-top: 500px;
+    }
+    .ukresult {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ukresultleft {
+        position: absolute;
+        margin-top: 50px;
+    }
+    #story {
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .ukresultright {
+        position: absolute;
+        margin-top: 230px;
+    }
+}

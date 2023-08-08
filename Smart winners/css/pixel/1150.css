@@ -1,0 +1,110 @@
+@media screen and (min-width: 1091px) and (max-width: 1150px) {
+    .iconhead {
+        /* position: absolute;
+        top: -5%; */
+        margin-left: 80px;
+        display: flex;
+        column-gap: 100px;
+        margin-top: -8px;
+    }
+    #lasticonhead {
+        margin-left: 80px;
+        display: flex;
+        column-gap: 10px;
+        margin-top: -8px;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1090px) {
+    .winnerdiv {
+        display: grid !important;
+        justify-content: center !important;
+    }
+    .winners {
+        margin-top: 30px;
+        display: grid;
+        justify-content: center;
+    }
+    .pria {
+        font-weight: 400;
+        font-size: 18px;
+        position: absolute;
+        top: 2px;
+        /* grid-row: 1/2; */
+        /* grid-column: 1/2; */
+    }
+    .prib {
+        top: 20px;
+        font-weight: 700;
+        font-size: 26px;
+        color: #13902A;
+        position: absolute;
+        /* grid-row: 2/3; */
+        /* grid-column: 2/3; */
+    }
+    .pric {
+        top: 55px;
+        display: flex;
+        column-gap: 10px;
+        position: absolute;
+        /* grid: 3/4; */
+    }
+    .faq {
+        margin-top: 95px !important;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+/* @media screen and (max-width: 1010px) {
+    .iconhead {
+margin-left: 80px;
+display: flex;
+column-gap: 100px;
+margin-top: -8px;
+
+}
+#lasticonhead {
+    margin-left: 80px;
+    display: flex;
+    column-gap: 2px !important;
+}
+
+}
+*/
+
+@media (max-width: 768px) {
+    .left {
+        margin-left: 1%;
+    }
+    .myaccount {
+        width: 130px;
+    }
+}
+
+@media (max-width: 694px) {
+    .bar {
+        display: none;
+    }
+    .smallheader {
+        display: initial !important;
+    }
+    .topbar {
+        display: none;
+    }
+    .smallheader {
+        display: initial !important;
+    }
+    .smalltopbar {
+        display: flex !important;
+    }
+    .small-bar {
+        width: 60%;
+        height: 80%;
+    }
+    .navbar-a {
+        margin-top: 70px;
+        row-gap: 80px;
+    }
+}
